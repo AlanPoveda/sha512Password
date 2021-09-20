@@ -1,0 +1,19 @@
+{
+  "name": "sha512password",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanPoveda/sha512Password.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanPoveda/sha512Password/issues"
+  },
+  "homepage": "https://github.com/AlanPoveda/sha512Password#readme"
+}
