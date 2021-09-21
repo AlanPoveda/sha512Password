@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/skeleton.css">
     <title>Encrypt Password 🔒</title>
 </head>
 <body>
-    <div id="title">
-        <h1>Input your password 🔐</h1>
-    </div>
-    <div class="input">
-        <input type="text" id="inputValue">
-    <input type="button" value="Submit" onclick="encrypt()">
+    <div class="container">
+        <div>
+            <h2>Input your password 🔐</h2>
+        </div>
+        <div>
+            <div>
+                <input type="password" id="inputValue" class="input-user">
+            </div>
+            <div>
+                <input type="button" value="Submit" onclick="encrypt()" class="button-primary">
+            </div>
+    
+        </div>
+
+        <div>
+            <h3>Your encrypt password :</h3>
+            <h5 id="response"></h5>
+        </div>
     </div>
     
-    <div id="response">
-    </div>
-    
-    <script src="src/encrypt/sha512.js"></script>
-    <script src="src/index.js" ></script>
+    <script src="src/js/encrypt/sha512.js"></script>
+    <script src="src/js/index.js" ></script>
 </body>
 </html>
