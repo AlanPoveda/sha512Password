@@ -4,3 +4,7 @@ const response = document.getElementById("response")
 function encrypt(){
     response.innerHTML = `${SHA512(inputUser.value)}`
 }
+
+function copyText(){
+    navigator.clipboard.writeText(SHA512(inputUser.value));
+}
